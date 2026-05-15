@@ -139,5 +139,3 @@ def optimize_object_data(df, threshold=0.05):
                 )
 
     return df
-
-
