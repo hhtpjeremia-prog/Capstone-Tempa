@@ -4,6 +4,17 @@ End-to-end data pipeline analyzing transaction data from the **G Coffee** chain 
 
 ---
 
+## 🚀 TL;DR
+
+**14.6M transactions** · **29.2M line items** · **2.2M users** · **10 outlets** · **2 years** (Jul 2023 – Jun 2025)
+
+- **Pipeline**: ingestion → validation → cleaning → feature engineering → segmentation → forecasting  
+- **Models**: K-Means, Apriori, ARIMA/SARIMA/Prophet, hybrid XGBoost (HWR-XGB, SARIMA-XGB, Prophet-XGB)  
+- **Memory**: transactions table 2.9 GB → 669 MB (type downcast + category encoding)  
+- **Delivery**: live Streamlit dashboard + Groq LLM analyst  
+- **Live dashboard**: https://g-coffee-dashboard.streamlit.app/  
+- **Best model**: 90-day forecast per branch, selected by MAE on held-out test  
+
 ---
 
 ## 📁 Struktur Proyek
