@@ -12,7 +12,7 @@ End-to-end data pipeline analyzing transaction data from the **G Coffee** chain 
 - **Models**: K-Means, Apriori, ARIMA/SARIMA/Prophet, hybrid XGBoost (HWR-XGB, SARIMA-XGB, Prophet-XGB)  
 - **Memory**: transactions table 2.9 GB → 669 MB (type downcast + category encoding)  
 - **Delivery**: live Streamlit dashboard + Groq LLM analyst  
-- **Live dashboard**: https://g-coffee-dashboard.streamlit.app/  
+- **Live dashboard**: https://capstone-projects.streamlit.app/  
 - **Best model**: 90-day forecast per branch, selected by MAE on held-out test  
 
 ---
@@ -326,7 +326,7 @@ streamlit run dashboard/app.py
 
 Dashboard juga sudah dideploy dan bisa diakses di:
 ```
-https://g-coffee-dashboard.streamlit.app/
+https://capstone-projects.streamlit.app/
 ```
 
 ---
