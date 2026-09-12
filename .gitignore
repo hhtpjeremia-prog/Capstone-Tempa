@@ -31,3 +31,5 @@ __pycache__/
 extract_metadata.py
 verify_metadata.py
 quick_test.py
+# Environment & secrets
+.env*.streamlit/
